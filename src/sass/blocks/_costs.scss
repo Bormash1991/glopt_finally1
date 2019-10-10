@@ -1,0 +1,59 @@
+.costs {
+    min-height: 584px;
+    padding: 53px 0 10px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 34px;
+        &_blocks {
+            border: 1px solid #e9e9e9;
+            padding-bottom: 25px;
+            &_t {
+                width: 261px;
+                height: 61px;
+                background-color: #25333c;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 23px;
+                text-transform: uppercase;
+                text-align: center;
+                padding-top: 20px;
+            }
+            &_img {
+                display: block;
+                margin: 0 auto;
+                margin-top: 14px;
+            }
+            &_text {
+                width: 241px;
+                margin: 0 auto;
+                margin-top: 12px;
+                font-weight: 400;
+                .span_title {
+                    color: #2e2e2e;
+                    display: block;
+                    text-align: center;
+                    font-size: 14px;
+                }
+                .sale {
+                    display: block;
+                    text-align: center;
+                    font-size: 28px;
+                    color: $main-color;
+                    line-height: 30px;
+                }
+                .text {
+                    display: block;
+                    color: #2e2e2e;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 9px;
+                }
+            }
+        }
+    }
+}

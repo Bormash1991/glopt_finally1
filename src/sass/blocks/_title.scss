@@ -1,0 +1,78 @@
+.title {
+    height: 680px;
+    background: url('../img/bg1.png') center ( center / cover ) no-repeat;
+    padding: 23px 0 82px 0 ;
+    &__logistikal {
+        margin-top: 9px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 24px;
+    }
+    &__h1 {
+        margin-top: 14px;       
+        color: $main-color;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 72px;
+    }
+    &__subtitle {
+        color: #ffffff;
+        line-height: 42px;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 8px;
+    }
+    &__line {
+        display: flex;
+        align-items:center;
+        justify-content: space-between; 
+        width: 809px;
+        margin: 0 auto;
+        margin-top: 38px;
+        hr {
+            width: 380px;
+            border-bottom: 0;
+            border-top: 1.2px solid white;
+        }
+        &_round {
+            width: 8px;
+            height: 8px;
+            background-color: #ffffff;
+            border-radius: 100%;
+        }
+    }
+    &__wrap {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 27px;
+        &_blocks {
+            &_img {
+                width: 64px;
+                height: 63px;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+                &:first-child {
+
+                }
+            }
+            span {
+                width: 260px;
+                display: block;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+    }
+}

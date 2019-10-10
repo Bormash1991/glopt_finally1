@@ -1,0 +1,14 @@
+.feed-form {
+    margin-top: 16px;
+    &__wrap {
+        width: 816px;
+        margin: 0 auto;
+    }
+    input {
+        width: 268px;
+        height: 45px;
+        border-radius: 40px;
+        border: 1px solid #898989;
+        padding: 0 26px 0 26px;
+    }
+}

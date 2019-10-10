@@ -1,0 +1,27 @@
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    &__question {
+        text-align: right;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__tel {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

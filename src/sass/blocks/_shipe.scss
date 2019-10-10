@@ -1,0 +1,34 @@
+.ship {
+    min-height: 624px;
+    padding: 51px 0 57px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        &_blocks {
+            margin-top: 37px;
+            &_img {
+                width: 360px;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            &_text {
+                width: 360px;
+                color: #3a3a3a;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                text-align: center;
+                margin-top: 28px;
+                span {
+                    display: block;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $main-color;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

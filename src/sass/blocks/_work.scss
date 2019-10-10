@@ -1,0 +1,39 @@
+.work {
+    min-height: 590px;
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &__wrap {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top:29px; 
+        &_blocks {
+            display: flex;
+            flex-direction: column;
+            width: 526px;
+            &_s {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-bottom: 36px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &_text {
+                    width: 447px;
+                    font-weight: 300;
+                    line-height: 22px;
+                    color: #3a3a3a;
+                    font-size: 14px;
+                    span {
+                        display: block;
+                        color: $main-color;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+}

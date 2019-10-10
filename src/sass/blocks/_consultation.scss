@@ -1,0 +1,51 @@
+.consultation {
+    min-height: 360px;
+    padding: 10px 0 58px 0;
+    &__wrap {
+        position: relative;
+        margin-top: 20px;
+        .left {
+            width: 1px;
+            height: 162px;
+            border-right: 0;
+            border-left: 1px solid  #898989;
+            position: absolute;
+            left: 0px;
+            top: 43px;
+        }
+        .right {
+            width: 1px;
+            height: 162px;
+            border-left: 0;
+            border-right: 1px solid  #898989;
+            position: absolute;
+            right: 0;
+            top: 43px;
+        }
+        &_l{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            hr {
+                width: 470px;
+                border-bottom: 0;
+                border-top: 1px solid  #898989;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+        .line {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 29px;
+            width: 100%;
+            hr {
+                width: 450px;
+                margin: 0;
+                border-top: 0;
+                border-bottom: 1px solid  #898989;
+            }
+        }
+    }
+}

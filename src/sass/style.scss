@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'link/bootstrap-grid.min';
+@import 'link/bootstrap-reboot.min';
+@import 'link/owl.carousel';
+@import 'link/owl.theme.default';
+@import 'base/colorfull';
+@import 'media/media';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/call';
+@import 'blocks/button';
+@import 'blocks/work';
+@import 'blocks/h';
+@import 'blocks/shipe';
+@import 'blocks/agent';
+@import 'blocks/costs';
+@import 'blocks/consultation';
+@import 'blocks/feed-form';
+@import 'blocks/_manager';
+
