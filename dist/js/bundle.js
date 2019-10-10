@@ -119,6 +119,28 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./src/js/modules/carousel.js":
+/*!************************************!*\
+  !*** ./src/js/modules/carousel.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function () {
+  $('.owl-carousel').owlCarousel({
+    center: true,
+    items: 3,
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {}
+  }); // $('.owl-nav').appended($('.owl-item'))
+
+  $('.owl-item').append($('.owl-nav'));
+}();
+
+/***/ }),
+
 /***/ "./src/js/modules/owl.carousel.min.js":
 /*!********************************************!*\
   !*** ./src/js/modules/owl.carousel.min.js ***!
@@ -1303,6 +1325,8 @@ window.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
   __webpack_require__(/*! ./modules/owl.carousel.min.js */ "./src/js/modules/owl.carousel.min.js");
+
+  __webpack_require__(/*! ./modules/carousel.js */ "./src/js/modules/carousel.js");
 });
 
 /***/ })
